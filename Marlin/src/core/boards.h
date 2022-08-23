@@ -368,6 +368,7 @@
 #define BOARD_ZONESTAR_ZM3E4V2        4064  // Zonestar ZM3E4 V2 (STM32F103VC)
 #define BOARD_ERYONE_ERY32_MINI       4065  // Eryone Ery32 mini (STM32F103VE)
 #define BOARD_PANDA_PI_V29            4066  // Panda Pi V2.9 - Standalone (STM32F103RC)
+#define BOARD_ZNP_ROBIN_NANO          4067  // ZNP Robin Nano (STM32F103VE)
 
 //
 // ARM Cortex-M4F
@@ -421,6 +422,9 @@
 #define BOARD_ARTILLERY_RUBY          4238  // Artillery Ruby (STM32F401RC)
 #define BOARD_FYSETC_SPIDER_V2_2      4239  // FYSETC Spider V2.2 (STM32F446VE)
 #define BOARD_CREALITY_V24S1_301F4    4240  // Creality v2.4.S1_301F4 (STM32F401RC) as found in the Ender-3 S1 F4
+#define BOARD_ZNP_ROBIN_NANO_V1_3     4241  // Elegoo Neptune 2 v1.3 board
+#define BOARD_MKS_NEPTUNE_X           4242  // Elegoo Neptune X
+#define BOARD_MKS_NEPTUNE_3           4243  // Elegoo Neptune 3
 
 //
 // ARM Cortex M7
