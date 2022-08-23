@@ -45,8 +45,8 @@ The following items are not supported with ColorUI:
 2. Power loss detection does not work (MKS made that call, not me) 
 3. Icon Previews do not exist in UI (Feature not available in the stock marlin color UI)
 
-## NOTE: LVGL seems to be broken and unusable based on feedback I have received so far, I am only leaving the files up in case someone wants to play around with it and try to make it work themselves, I am not recommending it's use at this point in time. :(
-If you use LVGL versions of the firmware you will have fewer advanced features available from the touchscreen but you will retain WIFI add-on compatibility and Icon Previews. If you choose to use the LVGL firmware you will also need to download the assests folder and include it with the appropriate elegoo.bin file on the sd card when you flash the firmware or you will not have all the icons, etc.
+## NOTE: LVGL seems to be possibly have an issue with resuming a print if you use the pause function. Though this may be a bug limited to only certain users, I am uncertain what is causing this bug.<br>
+If you use LVGL versions of the firmware you will have fewer advanced features available from the touchscreen but you will retain WIFI add-on compatibility and Icon Previews. If you choose to use the LVGL firmware you will also need to download the assests zip and extract the folder and include it with the appropriate elegoo.bin file on the sd card when you flash the firmware or you will not have all the icons, etc.
 
 # Setup and install
 
