@@ -4,7 +4,7 @@ The code within this repository comes with no guarantee; the use of this code is
 
 I take NO responsibility and liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK.
 
-These configurations have been ported from Trey Wentz 2.0.93 firmware and updated to the current version of Marlin. Original files can be found [here:](https://github.com/just-trey/Marlin/tree/elegoo-neptune-2/). 
+These configurations have been ported from Trey Wentz 2.0.93 firmware and updated to the current version of Marlin. Original files can be found [here.](https://github.com/just-trey/Marlin/tree/elegoo-neptune-2/)
 
 # Marlin 2.1.1 - Color UI and LVGL UI - 3D Printer Firmware compiled for Elegoo Neptune 2 / 2S /2D
 
@@ -13,6 +13,10 @@ These configurations have been ported from Trey Wentz 2.0.93 firmware and update
 **Note:** The configuration and compiled versions are available in this bundle. 
 
 This is a package of Marlin 2.1.1 bugfix configurations for the Elegoo Neptune 2, Elegoo Neptune 2S, and Elegoo Neptune 2D. The source is a fork from [Marlin 2](https://github.com/MarlinFirmware/Marlin/releases). 
+
+The Neptune X configs seem to have issues and get stuck on 100% during the flashing process, not sure how to get past that at this point.
+
+The Neptune 3 folder has the stock firmware files from Elegoo as well as the Advanced features enabled versions, they are NOT buildable from the source files here, if you want to build your own custom firmware you will need to get the source files from [here.](https://github.com/mlee12382/Neptune_3) Elegoo has made some unorthodox changes to the marlin source code which makes it not easily ported to different versions and they also break the builds for the other Neptune printers. I am leaving the settings bundled in the config files in case I figure out a way to make them all work on the same code in the future.
 
 These files are provided as opensource under the same [GPL v3](https://www.gnu.org/licenses/gpl-3.0) license as Marlin 2.
 
