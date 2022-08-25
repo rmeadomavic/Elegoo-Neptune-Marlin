@@ -5,6 +5,7 @@ Test them out and see which version gives the most consistent results, stock fir
 The Filament run-out sensor only works when the current Z height for the print is above 0.8mm, this is controlled somewhere in the stock firmware code and I don't have the coding skills yet to find this and change it.<br><br>
 This is built on Marlin 2.0.93 as that is what elegoo built theirs on and they've unfortunately made changes to the core source files that make it so I wasn't able to port to 2.1.1 as of yet, my source code modifications are available here: https://github.com/mlee12382/Neptune_3<br><br>
 Instructions for flashing the firmware and the screen firmware files are in the stock folder one level back.<br><br><br>
+8-24-22 - Minor tweak to firmware to attempt to get M600 to resume after changing filament.<br><br>
 8-18-22 - Rolled in Stock Firmware 'D' changes.<br><br>
 8-7-22 - Minor tweak to Z-offset.<br><br>
 8-6-22 - Updated Z height after Auto Level.<br><br>
