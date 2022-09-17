@@ -1,4 +1,5 @@
 DGUS_Reloaded is an experimental "clean" Marlin build without all the hacks done by Elegoo on the stock firmware, it also uses a different user interface, this is untested and experimental, use with caution and at your own risk but the potential benefits look promising. You will need to flash the included screen firmware as it is completely different from stock, there is a slight chance that the screen has been modified enough that it won't work but if it doesn't you "should" be able to flash back to the stock firmware.<br><br>
+MKS DGUS is similar to DGUS_Reloaded but uses the MKS screen firmware which is similar to the stock screen setup, in case Reloaded doesn't end up working.<br><br>
 As of 8-15-22 it seems there may be new screen firmware files, get them from here: https://github.com/mlee12382/Neptune_3/tree/main/Screen%20firmware/V1 or from the Stock D folder.<br><br>
 "WIFI" firmware PROBABLY doesn't actually enable wifi, and if it does there may not be a way to access network settings, it compiled without error though so figured I would throw it up as an experiment. If it does actually work PLEASE let me know :D if not hopefully there are other ways to make it work. <br><br>
 There are separate configs both with and without nozzle preheating for Auto Leveling.<br><br>
@@ -6,7 +7,8 @@ Test them out and see which version gives the most consistent results, stock fir
 The Filament run-out sensor only works when the current Z height for the print is above 0.8mm, this is controlled somewhere in the stock firmware code and I don't have the coding skills yet to find this and change it.<br><br>
 This is built on Marlin 2.0.93 as that is what elegoo built theirs on and they've unfortunately made changes to the core source files that make it so I wasn't able to port to 2.1.1 as of yet, my source code modifications are available here: https://github.com/mlee12382/Neptune_3<br><br>
 Instructions for flashing the firmware and the screen firmware files are in the stock folder one level back.<br><br><br>
-9-16-22 - Added DGUS_Reloaded UI firmware.
+9-17-22 - Added MKS DGUS UI firmware.<br><br>
+9-16-22 - Added DGUS_Reloaded UI firmware.<br><br>
 9-4-22 - Rolled in v1.0.4 updates, which enabled probe tare. Should display 1.0.4.A for Advanced Features.<br><br>
 8-24-22 - Minor tweak to firmware to attempt to get M600 to resume after changing filament.<br><br>
 8-18-22 - Rolled in Stock Firmware 'D' changes.<br><br>
