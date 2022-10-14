@@ -59,9 +59,8 @@ If you use LVGL versions of the firmware you will have fewer advanced features a
 NOTE: I recommend you use an sd card 8GB or less Formatted as FAT32 for installing. Using anything larger has been an issue with some users. If you do not have one (you can use the card that came with the printer), this is the one I use [(non-affiliate link)](https://amzn.to/3JIOzYL)
 
 1. If you have tuned your printer (especially e-steps), I highly recommend you connect and run an M503 and record your values. This process will erase any values changed from a stock install. 
-2. [Download the latest version here](https://github.com/just-trey/Marlin/releases/latest/download/Neptune-2.zip).
-3. Extract the zip file on your computer
-4. Copy the desired `elegoo.bin` configuration to your SD Card. No other files are needed to install, with the exception of using the LVGL firmware in which case you will also need the 'assets' folder with the 140 .bin files inside. 
+2. Download the appropriate elegoo.bin file from the folders above.
+3. Copy the desired `elegoo.bin` configuration to your SD Card. No other files are needed to install, with the exception of using the LVGL firmware in which case you will also need the 'assets' folder with the 140 .bin files inside. 
    
    ***NOTE:*** **IT IS IMPORTANT YOU KNOW THE VERSION OF THE ZNP ROBIN NANO BOARD YOU HAVE, AND YOU NEED TO USE THAT VERSION OF THE FIRMWARE**
   
