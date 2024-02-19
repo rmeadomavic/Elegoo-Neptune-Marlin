@@ -84,13 +84,14 @@
 #define Z_STEP_PIN                          PB5
 #define Z_DIR_PIN                           PB4
 
-#define E0_ENABLE_PIN                       PB3
-#define E0_STEP_PIN                         PD6
-#define E0_DIR_PIN                          PD3
+// E0 now uses what was originally E1's pins
+#define E0_ENABLE_PIN                       PA3
+#define E0_STEP_PIN                         PA6
+#define E0_DIR_PIN                          PA1
 
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PA6
-#define E1_DIR_PIN                          PA1
+// E1 now uses what was originally E0's pins
+#define E1_STEP_PIN                         PD6
+#define E1_DIR_PIN                          PD3
 
 //
 // Temperature Sensors

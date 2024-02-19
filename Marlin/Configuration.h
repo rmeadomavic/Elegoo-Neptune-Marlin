@@ -65,8 +65,8 @@
 
 // MAIN CONFIGURATION SWITCHES FOR FEATURES - see readme.md for more details.
 // ctrl+/ with your cursor on a line will comment / uncomment that line.
-// #define IS_BOARD_1_3              // uncomment if you have the 1.3 board, commented out for 1.2 board Be sure to change default_envs in PlatformIO.ini
-// #define HAS_BLTOUCH               // uncomment if you have a BLTouch or clone
+#define IS_BOARD_1_3              // uncomment if you have the 1.3 board, commented out for 1.2 board Be sure to change default_envs in PlatformIO.ini
+#define HAS_BLTOUCH               // uncomment if you have a BLTouch or clone
 // #define IS_2D                     // uncomment if you have a Neptune 2D (Dual extruder)
 // #define IS_2S					           // uncomment if you have a Neptune 2S (Always a 1.3 board) //mlee12382
 #define IS_X                      // BROKEN uncomment if you have a Neptune X make sure IS_BOARD_1_3 is commented and set platformio.ini to mks_neptune_x
@@ -231,9 +231,9 @@
 #else
   #define E0_DRIVER_TYPE  A4988
 #endif
-#if ENABLED(IS_2D)
-  #define E1_DRIVER_TYPE A4988
-#endif
+
+#define E1_DRIVER_TYPE TMC2208_STANDALONE
+
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
